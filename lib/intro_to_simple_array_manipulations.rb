@@ -28,6 +28,7 @@ end
 
 def using_insert(list_of_programming_languages,another_language)
 
+<<<<<<< HEAD
 list_of_programming_languages.insert(4,another_language)
 
 end
@@ -46,4 +47,8 @@ end
 
 def using_delete_at(famous_robots,deleted_robot)
   famous_robots.delete_at(2)
+=======
+new_array = list_of_programming_language[4].insert(another_language)
+
+>>>>>>> 2ecdb7dea0dc632de407d694e095e334829fce36
 end
